@@ -1,11 +1,14 @@
-// 计算12" * 10" * 8"箱子的重量
+// 根据用户输入计算箱子重量
 #include <stdio.h>
 int main(void)
 {
     int height, length, weight, width, volume;
-    height = 8;
-    length = 12;
-    width = 10;
+    printf("height:");
+    scanf("%d",&height);
+    printf("length:");
+    scanf("%d",&length);
+    printf("width:");
+    scanf("%d",&width);
     volume = height * length * width;
     weight = (volume + 165) / 166;
     printf("Dimensions: %dx%dx%d\n", length, weight, height);
