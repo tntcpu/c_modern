@@ -5,11 +5,11 @@ int main(void)
 {
     int height, length, weight, width, volume;
     printf("height:");
-    scanf("%d",&height);
+    scanf("%d", &height);
     printf("length:");
-    scanf("%d",&length);
+    scanf("%d", &length);
     printf("width:");
-    scanf("%d",&width);
+    scanf("%d", &width);
     volume = height * length * width;
     weight = (volume + 165) / INCHES_PER_POUND;
     printf("Dimensions: %dx%dx%d\n", length, width, height);
