@@ -1,6 +1,7 @@
 # Project exclude paths
 /cmake-build-debug/
-.vscode/*
+.history
+.vscode
 chap*/build/*
 chap*/exe/*
 launch.json
