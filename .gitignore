@@ -1,6 +1,8 @@
 # Project exclude paths
 /cmake-build-debug/
 .vscode/*
+./build/*
+./exe/*
 launch.json
 settings.json
 tasks.json
@@ -59,3 +61,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+chap01/build/Debug/outDebug
+chap01/exe/dweight2
+
